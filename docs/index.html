@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoberSync - 法的情報</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 48px 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            border-radius: 20px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        h1 {
+            color: #2E7D32;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: #666;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .link-card {
+            display: block;
+            padding: 20px 24px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+        }
+        .link-card:hover {
+            background: #E8F5E9;
+            border-color: #4CAF50;
+            transform: translateY(-2px);
+        }
+        .link-card h2 {
+            font-size: 18px;
+            color: #2E7D32;
+            margin-bottom: 4px;
+        }
+        .link-card p {
+            font-size: 13px;
+            color: #666;
+        }
+        .link-icon {
+            float: right;
+            color: #4CAF50;
+            font-size: 20px;
+        }
+        footer {
+            margin-top: 32px;
+            color: #888;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">🍃</div>
+            <h1>SoberSync</h1>
+            <p class="tagline">禁酒サポートアプリ</p>
+
+            <div class="links">
+                <a href="privacy-policy.html" class="link-card">
+                    <span class="link-icon">→</span>
+                    <h2>プライバシーポリシー</h2>
+                    <p>個人情報の取り扱いについて</p>
+                </a>
+                <a href="terms-of-service.html" class="link-card">
+                    <span class="link-icon">→</span>
+                    <h2>利用規約</h2>
+                    <p>サービスの利用条件について</p>
+                </a>
+            </div>
+
+            <footer>
+                <p>&copy; 2026 SoberSync. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
